@@ -3,11 +3,10 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
 
 const Brands = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -45,7 +44,7 @@ const Brands = () => {
         {/* Brands Carousel with Swiper */}
         <div className="relative px-12">
           <Swiper
-            modules={[Autoplay, Navigation]}
+            modules={[Autoplay]}
             spaceBetween={20}
             slidesPerView="auto"
             loop={true}
@@ -57,15 +56,18 @@ const Brands = () => {
           >
             {brands.map((brand) => (
               <SwiperSlide key={brand.id} style={{ width: '200px' }}>
-                <div className="bg-white rounded-xl shadow-lg p-4 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <div className="bg-white rounded-xl shadow-lg p-2 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                   <div className="flex items-center justify-center h-32">
-                    <div className="text-center">
+                    <div className="text-center w-full h-full flex items-center justify-center">
+                      <div className="relative w-full h-full">
                         <Image
                           src={brand.logo}
                           alt={`${brand.name} Logo`}
                           fill
                           className="object-contain"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -95,18 +97,6 @@ const Brands = () => {
       </div>
 
       <style jsx global>{`
-        .brands-swiper .swiper-button-next,
-        .brands-swiper .swiper-button-prev {
-          background-size: 20px;
-          background-position: center;
-        }
-        
-        .brands-swiper .swiper-button-next:after,
-        .brands-swiper .swiper-button-prev:after {
-          font-size: 16px;
-          font-weight: bold;
-        }
-
         .brands-swiper .swiper-slide {
           width: 200px !important;
         }

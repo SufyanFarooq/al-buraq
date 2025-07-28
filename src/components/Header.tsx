@@ -24,6 +24,7 @@ export default function Header() {
                 width={148}
                 height={48}
                 className="w-full h-full object-contain"
+                priority
               />
             </div>
           </Link>
