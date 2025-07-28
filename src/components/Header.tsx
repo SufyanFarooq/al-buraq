@@ -5,9 +5,14 @@ import Image from 'next/image';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const toggleAboutDropdown = () => {
+    setIsAboutDropdownOpen(!isAboutDropdownOpen);
   };
 
   return (
@@ -34,9 +39,56 @@ export default function Header() {
             <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">
               Home
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">
-              About
-            </Link>
+            
+            {/* About Dropdown */}
+            <div className="relative">
+              <button
+                onClick={toggleAboutDropdown}
+                onMouseEnter={() => setIsAboutDropdownOpen(true)}
+                onMouseLeave={() => setIsAboutDropdownOpen(false)}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 flex items-center"
+              >
+                About
+                <svg className="w-4 h-4 ml-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              
+              {/* Dropdown Menu */}
+              {isAboutDropdownOpen && (
+                <div 
+                  className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-lg border border-gray-200 py-2"
+                  onMouseEnter={() => setIsAboutDropdownOpen(true)}
+                  onMouseLeave={() => setIsAboutDropdownOpen(false)}
+                >
+                  <Link
+                    href="/privacy-policy"
+                    className="block px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors duration-200"
+                  >
+                    Privacy Policy
+                  </Link>
+                  <Link
+                    href="/terms-conditions"
+                    className="block px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors duration-200"
+                  >
+                    Terms & Conditions
+                  </Link>
+                  <Link
+                    href="/refund-policy"
+                    className="block px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors duration-200"
+                  >
+                    Refund Policy
+                  </Link>
+                  <Link
+                    href="/delivery-policy"
+                    className="block px-4 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors duration-200"
+                  >
+                    Delivery Policy
+                  </Link>
+                </div>
+              )}
+            </div>
+            
             <Link href="#services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">
               Services
             </Link>
@@ -98,11 +150,32 @@ export default function Header() {
                 Home
               </Link>
               <Link
-                href="#about"
+                href="/privacy-policy"
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md font-medium transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About
+                Privacy Policy
+              </Link>
+              <Link
+                href="/terms-conditions"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md font-medium transition-colors duration-300"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Terms & Conditions
+              </Link>
+              <Link
+                href="/refund-policy"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md font-medium transition-colors duration-300"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Refund Policy
+              </Link>
+              <Link
+                href="/delivery-policy"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md font-medium transition-colors duration-300"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Delivery Policy
               </Link>
               <Link
                 href="#services"

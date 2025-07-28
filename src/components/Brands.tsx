@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
@@ -9,7 +8,6 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
 const Brands = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
   
   const brands = [
     { id: 1, name: "Aster", logo: "/assets/brands/aster.png" },

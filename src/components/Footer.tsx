@@ -104,10 +104,10 @@ export default function Footer() {
               © 2024 Alburaq Express. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Terms & Conditions</a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Refund Policy</a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Delivery Policy</a>
+              <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>
+              <Link href="/terms-conditions" className="text-gray-400 hover:text-white transition-colors">Terms & Conditions</Link>
+              <Link href="/refund-policy" className="text-gray-400 hover:text-white transition-colors">Refund Policy</Link>
+              <Link href="/delivery-policy" className="text-gray-400 hover:text-white transition-colors">Delivery Policy</Link>
             </div>
           </div>
         </div>
