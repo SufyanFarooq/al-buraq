@@ -15,9 +15,9 @@ export default function About() {
           {/* Left Content */}
           <div className="animate-fade-in-up order-2 lg:order-1">
             <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-xl border border-gray-100">
-              <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Alburaq Express</h3>
+              <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Alburaq Cargo LLC</h3>
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6">
-                Alburaq Express is a Flagship Company and A Subsidiary of Zone Maritime and Zone Rito Investment. 
+                Alburaq Cargo LLC is a Flagship Company and A Subsidiary of Zone Maritime and Zone Rito Investment. 
                 We are committed to delivering excellence in logistics and supply chain management across the UAE.
               </p>
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-6 sm:mb-8">

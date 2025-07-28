@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description: "Alburaq Cargo LLC provides professional logistics and delivery solutions across UAE. Last-mile delivery, supply chain management, leasing solutions, and storage facilities.",
   keywords: "logistics, delivery services, UAE, last-mile delivery, supply chain, Alburaq Cargo, cargo services, storage facilities, leasing solutions",
   icons: {
-    icon: '/assets/alburaq-cargo-dark-logo.png',
-    shortcut: '/assets/alburaq-cargo-dark-logo.png',
-    apple: '/assets/alburaq-cargo-dark-logo.png',
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   },
   openGraph: {
     title: 'Alburaq Cargo LLC - Professional Logistics & Delivery Solutions',

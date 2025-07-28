@@ -67,7 +67,7 @@ export default function Hero() {
                 Fast, Reliable, and Efficient Delivery Solutions Across UAE
               </h1>
               <p className="text-lg sm:text-xl text-blue-100 mb-8 leading-relaxed">
-                Alburaq Express delivers excellence in logistics with cutting-edge technology and unwavering commitment to customer satisfaction.
+                Alburaq Cargo LLC delivers excellence in logistics with cutting-edge technology and unwavering commitment to customer satisfaction.
               </p>
               
               {/* CTA Buttons */}

@@ -40,7 +40,7 @@ export default function TermsConditionsPage() {
                 1. Acceptance of Terms
               </h2>
               <p className="text-gray-600 mb-6">
-                By accessing and using Alburaq Express services, you accept and
+                By accessing and using Alburaq Cargo LLC services, you accept and
                 agree to be bound by the terms and provision of this agreement.
                 If you do not agree to abide by the above, please do not use
                 this service.
@@ -50,7 +50,7 @@ export default function TermsConditionsPage() {
                 2. Service Description
               </h2>
               <p className="text-gray-600 mb-6">
-                Alburaq Express provides logistics and delivery services
+                Alburaq Cargo LLC provides logistics and delivery services
                 including:
               </p>
               <ul className="list-disc pl-6 text-gray-600 mb-8">
@@ -131,7 +131,7 @@ export default function TermsConditionsPage() {
               </h2>
               <p className="text-gray-600 mb-6">
                 All content on our website and materials are owned by Alburaq
-                Express and are protected by copyright and other intellectual
+                Cargo LLC and are protected by copyright and other intellectual
                 property laws.
               </p>
 

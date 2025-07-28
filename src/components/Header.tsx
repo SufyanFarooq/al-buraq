@@ -25,10 +25,11 @@ export default function Header() {
             <div className="w-24 sm:w-28 lg:w-36 h-8 sm:h-10 lg:h-12 mr-2 sm:mr-3">
               <Image
                 src="/assets/alburaq-cargo-dark-logo.png"
-                alt="Alburaq Express Logo"
+                alt="Alburaq Cargo LLC Logo"
                 width={148}
                 height={48}
                 className="w-full h-full object-contain"
+                style={{ width: 'auto', height: 'auto' }}
                 priority
               />
             </div>

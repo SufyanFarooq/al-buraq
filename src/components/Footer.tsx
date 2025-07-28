@@ -12,16 +12,17 @@ export default function Footer() {
             <div className="w-24 sm:w-28 lg:w-36 h-8 sm:h-10 lg:h-12 mr-2 sm:mr-3">
               <Image
                 src="/assets/alburaq-cargo-light-logo.png"
-                alt="Alburaq Express Logo"
+                alt="Alburaq Cargo LLC Logo"
                 width={148}
                 height={48}
                 className="w-full h-full object-contain"
+                style={{ width: 'auto', height: 'auto' }}
                 priority
               />
             </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Alburaq Express is your trusted partner for seamless logistics and delivery services across UAE. 
+              Alburaq Cargo LLC is your trusted partner for seamless logistics and delivery services across UAE. 
               We provide last-mile delivery, supply chain management, and comprehensive logistics solutions 
               to help your business grow.
             </p>

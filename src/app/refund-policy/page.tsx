@@ -40,7 +40,7 @@ export default function RefundPolicyPage() {
                 1. Overview
               </h2>
               <p className="text-gray-600 mb-6">
-                At Alburaq Express, we strive to provide the highest quality
+                At Alburaq Cargo LLC, we strive to provide the highest quality
                 delivery and logistics services. This refund policy outlines the
                 circumstances under which refunds may be issued and the process
                 for requesting them.
