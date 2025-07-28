@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
@@ -56,8 +56,6 @@ export default function Footer() {
               <li><Link href="#about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
               <li><Link href="#services" className="text-gray-400 hover:text-white transition-colors">Services</Link></li>
               <li><Link href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
-              <li><Link href="#blogs" className="text-gray-400 hover:text-white transition-colors">Blogs</Link></li>
-              <li><Link href="#testimonials" className="text-gray-400 hover:text-white transition-colors">Testimonials</Link></li>
             </ul>
           </div>
 
@@ -67,21 +65,12 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <svg className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                </svg>
-                <div>
-                  <p className="text-gray-400 text-sm">24h Service hotline</p>
-                  <p className="text-white font-semibold">04 273 7772</p>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <svg className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
                 <div>
                   <p className="text-gray-400 text-sm">Email</p>
-                  <p className="text-white">info@alburaqexpress.com</p>
+                  <p className="text-white">info@alburaqcargo.com</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -90,10 +79,42 @@ export default function Footer() {
                 </svg>
                 <div>
                   <p className="text-gray-400 text-sm">Location</p>
-                  <p className="text-white">UAE - Dubai, Abu Dhabi, Sharjah</p>
+                  <a 
+                    href="https://maps.app.goo.gl/9vGHkujReuLvetxS8?g_st=iwb" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-blue-400 transition-colors duration-300 flex items-center group"
+                  >
+                    <span>Zone Delivery Services LLC, Dubai</span>
+                    <svg className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Google Maps */}
+          <div className="lg:col-span-1">
+            <h4 className="text-lg font-semibold mb-6">Our Location</h4>
+            <div className="relative h-48 rounded-xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785!2d55.2708!3d25.2048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff28e3e811aa4348!2sZone%20Delivery%20Services%20LLC!5e0!3m2!1sen!2sae!4v1648123456789!5m2!1sen!2sae"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Zone Delivery Services LLC Location"
+                className="absolute inset-0"
+              ></iframe>
+            </div>
+            <p className="text-gray-400 text-sm mt-3">
+              Zone Delivery Services LLC<br/>
+              Dubai, United Arab Emirates
+            </p>
           </div>
         </div>
 

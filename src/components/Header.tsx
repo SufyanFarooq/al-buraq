@@ -95,9 +95,6 @@ export default function Header() {
             <Link href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">
               Contact
             </Link>
-            <Link href="/blog" className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">
-              Blog
-            </Link>
           </nav>
 
           {/* Desktop CTA Button */}

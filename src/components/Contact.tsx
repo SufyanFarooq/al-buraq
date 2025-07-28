@@ -29,10 +29,10 @@ export default function Contact() {
                         <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                       </svg>
                     </div>
-                    <div>
+                    {/* <div>
                       <h4 className="font-semibold text-base sm:text-lg mb-1 sm:mb-2">24h Service hotline</h4>
                       <p className="text-lg sm:text-2xl font-bold text-yellow-300">04 273 7772</p>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="flex items-start space-x-3 sm:space-x-4">
@@ -44,7 +44,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Email</h4>
-                      <p className="text-blue-100 text-sm sm:text-base">info@alburaqexpress.com</p>
+                      <p className="text-blue-100 text-sm sm:text-base">info@alburaqcargo.com</p>
                     </div>
                   </div>
 
@@ -56,7 +56,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Location</h4>
-                      <p className="text-blue-100 text-sm sm:text-base">UAE - Dubai, Abu Dhabi, Sharjah</p>
+                      <p className="text-blue-100 text-sm sm:text-base">Al Salam Tower, 10th Floor
+Office R10, Abu Dhabi</p>
                     </div>
                   </div>
 
