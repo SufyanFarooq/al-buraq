@@ -15,12 +15,11 @@ export default function Contact() {
     setSubmitStatus("idle");
 
     try {
+      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
+      const notificationTemplateId = process.env.NEXT_PUBLIC_EMAILJS_NOTIFICATION_TEMPLATE_ID || "";
+      const thankYouTemplateId = process.env.NEXT_PUBLIC_EMAILJS_THANKYOU_TEMPLATE_ID || "";
+      const userId = process.env.NEXT_PUBLIC_EMAILJS_USER_ID || "";
       // EmailJS configuration
-      const serviceId = "service_uk3qsca";
-      const notificationTemplateId = "template_f0wcvqc"; // Notification email template ID
-      const thankYouTemplateId = "template_5vhal6c"; // Thank you email template ID (you'll need to create this)
-      const userId = "opVzyI34Ov40AZg3D"; // Replace with your actual User ID
-
       if (formRef.current) {
         // Send notification email to you
         const notificationResult = await emailjs.sendForm(
@@ -82,7 +81,7 @@ export default function Contact() {
 
               {/* Contact Details */}
               <div className="space-y-6 sm:space-y-8">
-                <div className="flex items-start space-x-3 sm:space-x-4">
+                {/* <div className="flex items-start space-x-3 sm:space-x-4">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0 backdrop-blur-sm">
                     <svg
                       className="w-6 h-6 sm:w-7 sm:h-7 text-white"
@@ -92,11 +91,11 @@ export default function Contact() {
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
                   </div>
-                  {/* <div>
+                  <div>
                     <h4 className="font-semibold text-base sm:text-lg mb-1 sm:mb-2">24h Service hotline</h4>
                     <p className="text-lg sm:text-2xl font-bold text-yellow-300">04 273 7772</p>
-                  </div> */}
-                </div>
+                  </div>
+                </div> */}
 
                 <div className="flex items-start space-x-3 sm:space-x-4">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0 backdrop-blur-sm">
@@ -114,7 +113,7 @@ export default function Contact() {
                       Email
                     </h4>
                     <p className="text-blue-100 text-sm sm:text-base">
-                      info@alburaqcargo.com
+                      contact@alburaqcargo.com
                     </p>
                   </div>
                 </div>

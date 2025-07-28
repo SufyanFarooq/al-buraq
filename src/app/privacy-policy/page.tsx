@@ -130,7 +130,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <div className="bg-gray-50 p-6 rounded-xl">
                 <p className="text-gray-700">
-                  <strong>Email:</strong> info@alburaqcargo.com
+                  <strong>Email:</strong> contact@alburaqcargo.com
                   <br />
                   <strong>Address:</strong> Al Salam Tower, 10th Floor Office
                   R10, Abu Dhabi

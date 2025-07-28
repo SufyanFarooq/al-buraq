@@ -9,15 +9,16 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="w-36 h-12 mr-4">
-                <Image
-                  src="/assets/alburaq-cargo-light-logo.png"
-                  alt="Alburaq Express Logo"
-                  width={148}
-                  height={48}
-                  className="w-full h-full object-contain"
-                />
-              </div>
+            <div className="w-24 sm:w-28 lg:w-36 h-8 sm:h-10 lg:h-12 mr-2 sm:mr-3">
+              <Image
+                src="/assets/alburaq-cargo-light-logo.png"
+                alt="Alburaq Express Logo"
+                width={148}
+                height={48}
+                className="w-full h-full object-contain"
+                priority
+              />
+            </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Alburaq Express is your trusted partner for seamless logistics and delivery services across UAE. 
@@ -70,7 +71,7 @@ export default function Footer() {
                 </svg>
                 <div>
                   <p className="text-gray-400 text-sm">Email</p>
-                  <p className="text-white">info@alburaqcargo.com</p>
+                  <p className="text-white">contact@alburaqcargo.com</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">

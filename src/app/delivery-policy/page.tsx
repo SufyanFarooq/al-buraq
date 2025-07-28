@@ -240,7 +240,7 @@ export default function DeliveryPolicyPage() {
               </p>
               <div className="bg-gray-50 p-6 rounded-xl">
                 <p className="text-gray-700">
-                  <strong>Email:</strong>info@alburaqcargo.com
+                  <strong>Email:</strong>contact@alburaqcargo.com
                   <br />
                   <strong>Hours:</strong> Monday - Saturday, 8:00 AM - 8:00 PM
                   <br />
