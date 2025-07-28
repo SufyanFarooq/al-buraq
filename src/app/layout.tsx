@@ -5,9 +5,25 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alburaq Express - Fast, Reliable, and Efficient Delivery Solutions",
-  description: "Alburaq Express provides fast, reliable, and efficient delivery solutions across UAE. Last-mile delivery, supply chain management, and logistics services.",
-  keywords: "delivery services, logistics, UAE, last-mile delivery, supply chain, Alburaq Express",
+  title: "Alburaq Cargo LLC - Professional Logistics & Delivery Solutions",
+  description: "Alburaq Cargo LLC provides professional logistics and delivery solutions across UAE. Last-mile delivery, supply chain management, leasing solutions, and storage facilities.",
+  keywords: "logistics, delivery services, UAE, last-mile delivery, supply chain, Alburaq Cargo, cargo services, storage facilities, leasing solutions",
+  icons: {
+    icon: '/assets/alburaq-cargo-dark-logo.png',
+    shortcut: '/assets/alburaq-cargo-dark-logo.png',
+    apple: '/assets/alburaq-cargo-dark-logo.png',
+  },
+  openGraph: {
+    title: 'Alburaq Cargo LLC - Professional Logistics & Delivery Solutions',
+    description: 'Professional logistics and delivery solutions across UAE. Last-mile delivery, supply chain management, leasing solutions, and storage facilities.',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Alburaq Cargo LLC - Professional Logistics & Delivery Solutions',
+    description: 'Professional logistics and delivery solutions across UAE.',
+  },
 };
 
 export default function RootLayout({

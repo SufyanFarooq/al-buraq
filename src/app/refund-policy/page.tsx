@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
+
+export const metadata: Metadata = {
+  title: "Refund Policy - Alburaq Cargo LLC",
+  description: "Learn about Alburaq Cargo LLC's refund policy. Understand our cancellation, refund eligibility, and process guidelines.",
+};
 
 export default function RefundPolicyPage() {
   return (

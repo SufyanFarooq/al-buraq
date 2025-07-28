@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions - Alburaq Cargo LLC",
+  description: "Read Alburaq Cargo LLC's terms and conditions. Understand our service agreements, user responsibilities, and company policies.",
+};
 
 export default function TermsConditionsPage() {
   return (

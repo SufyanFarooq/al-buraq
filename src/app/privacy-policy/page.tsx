@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy - Alburaq Cargo LLC",
+  description: "Learn how Alburaq Cargo LLC collects, uses, and protects your personal information. Read our comprehensive privacy policy.",
+};
 
 export default function PrivacyPolicyPage() {
   return (

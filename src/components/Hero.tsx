@@ -34,9 +34,9 @@ export default function Hero() {
   }, [heroSmallImages.length]);
 
   return (
-    <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-16 overflow-hidden z-0">
       {/* Background Image Carousel */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 z-0">
         {heroImages.map((image, index) => (
           <div 
             key={index} 

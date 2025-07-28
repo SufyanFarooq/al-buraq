@@ -21,24 +21,16 @@ export default function Header() {
         <div className="flex justify-between items-center h-16 sm:h-20">
           
           {/* Logo */}
-          <Link href="/" className="flex items-center group">
-            <div className="w-28 sm:w-32 lg:w-40 h-10 sm:h-12 lg:h-14 mr-2 sm:mr-3 transition-transform duration-300 group-hover:scale-105">
+          <Link href="/" className="flex items-center">
+            <div className="w-24 sm:w-28 lg:w-36 h-8 sm:h-10 lg:h-12 mr-2 sm:mr-3">
               <Image
                 src="/assets/alburaq-cargo-dark-logo.png"
-                alt="Alburaq Cargo LLC Logo"
-                width={160}
-                height={56}
-                className="w-full h-full object-contain drop-shadow-sm"
+                alt="Alburaq Express Logo"
+                width={148}
+                height={48}
+                className="w-full h-full object-contain"
                 priority
               />
-            </div>
-            <div className="hidden sm:block">
-              <div className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
-                Alburaq Cargo
-              </div>
-              <div className="text-xs sm:text-sm text-gray-600 group-hover:text-blue-500 transition-colors duration-300">
-                Professional Logistics
-              </div>
             </div>
           </Link>
 

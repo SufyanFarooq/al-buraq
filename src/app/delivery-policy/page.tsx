@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
+
+export const metadata: Metadata = {
+  title: "Delivery Policy - Alburaq Cargo LLC",
+  description: "Learn about Alburaq Cargo LLC's delivery policy. Understand our service areas, timeframes, and delivery process.",
+};
 
 export default function DeliveryPolicyPage() {
   return (
