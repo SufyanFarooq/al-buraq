@@ -27,7 +27,7 @@ export default function RefundPolicyPage() {
           <div className="bg-white rounded-3xl shadow-xl p-8 lg:p-12">
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 mb-8">
-                <strong>Last updated:</strong> March 2024
+                <strong>Last updated:</strong> March 2023
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mb-6">

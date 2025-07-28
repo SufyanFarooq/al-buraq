@@ -53,9 +53,9 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
               <li><Link href="/" className="text-gray-400 hover:text-white transition-colors">Home</Link></li>
-              <li><Link href="#about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link href="#services" className="text-gray-400 hover:text-white transition-colors">Services</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
+              <li><Link href="/#about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
+              <li><Link href="/#services" className="text-gray-400 hover:text-white transition-colors">Services</Link></li>
+              <li><Link href="/#contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
 
@@ -78,18 +78,19 @@ export default function Footer() {
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
                 <div>
-                  <p className="text-gray-400 text-sm">Location</p>
-                  <a 
-                    href="https://maps.app.goo.gl/9vGHkujReuLvetxS8?g_st=iwb" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-white hover:text-blue-400 transition-colors duration-300 flex items-center group"
-                  >
-                    <span>Zone Delivery Services LLC, Dubai</span>
-                    <svg className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
+                  <p className="text-gray-400 text-sm"> Our Location</p>
+                  <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785!2d55.2708!3d25.2048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff28e3e811aa4348!2sZone%20Delivery%20Services%20LLC!5e0!3m2!1sen!2sae!4v1648123456789!5m2!1sen!2sae"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Zone Delivery Services LLC Location"
+                className="absolute inset-0"
+              ></iframe>
+                  
                 </div>
               </div>
             </div>
@@ -112,8 +113,7 @@ export default function Footer() {
               ></iframe>
             </div>
             <p className="text-gray-400 text-sm mt-3">
-              Zone Delivery Services LLC<br/>
-              Dubai, United Arab Emirates
+            Al Buraq cargo delivery service LLC Abu Dhabi
             </p>
           </div>
         </div>
@@ -122,7 +122,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Alburaq Express. All rights reserved.
+              © {new Date().getFullYear()} Alburaq Cargo Delivery Service LLC. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>
