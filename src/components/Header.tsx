@@ -19,7 +19,7 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <div className="w-24 sm:w-28 lg:w-36 h-8 sm:h-10 lg:h-12 mr-2 sm:mr-3">
               <Image
-                src="/assetes/logo.png"
+                src="/assets/alburaq-cargo-dark-logo.png"
                 alt="Alburaq Express Logo"
                 width={148}
                 height={48}
