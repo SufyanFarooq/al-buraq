@@ -87,7 +87,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="text-white hover:text-blue-400 transition-colors duration-300 flex items-center group"
                   >
-                    <span>Zone Delivery Services LLC, Dubai</span>
+                    <span>Al Buraq Cargo Delivery Service LLC, Abu Dhabi</span>
                     <svg className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
@@ -102,14 +102,14 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Our Location</h4>
             <div className="relative h-48 rounded-xl overflow-hidden shadow-lg bg-gray-800">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785!2d55.2708!3d25.2048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff28e3e811aa4348!2sZone%20Delivery%20Services%20LLC!5e0!3m2!1sen!2sae!4v1648123456789!5m2!1sen!2sae"
+                src="https://maps.app.goo.gl/9vGHkujReuLvetxS8?g_st=iwb"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Zone Delivery Services LLC Location"
+                title="Al Buraq cargo delivery service LLC Abu Dhabi"
                 className="w-full h-full rounded-xl"
               ></iframe>
             </div>
