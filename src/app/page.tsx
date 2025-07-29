@@ -9,8 +9,8 @@ import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
 
 export const metadata: Metadata = {
-  title: "Alburaq Cargo LLC - Professional Logistics & Delivery Solutions",
-  description: "Alburaq Cargo LLC provides professional logistics and delivery solutions across UAE. Last-mile delivery, supply chain management, leasing solutions, and storage facilities.",
+  title: "Al Buraq Cargo Delivery Services - Professional Cargo Delivery UAE | Abu Dhabi, Dubai",
+  description: "Al Buraq Cargo Delivery Services provides professional cargo delivery services across UAE including Abu Dhabi, Dubai, and Sharjah. Fast, reliable, and secure cargo delivery solutions.",
 };
 
 export default function Home() {

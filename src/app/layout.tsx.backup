@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Al Buraq Cargo Delivery Services - Professional Cargo Delivery UAE | Abu Dhabi, Dubai",
+  title: "Alburaq Cargo LLC - Professional Logistics & Delivery Solutions",
   description:
-    "Al Buraq Cargo Delivery Services provides professional cargo delivery services across UAE including Abu Dhabi, Dubai, and Sharjah. Fast, reliable, and secure cargo delivery solutions.",
+    "Alburaq Cargo LLC provides professional logistics and delivery solutions across UAE. Last-mile delivery, supply chain management, leasing solutions, and storage facilities.",
   keywords:
     "Al Buraq Cargo Delivery Services, Al Buraq Cargo Delivery Services - Sole, Cargo Delivery, Al Buraq Cargo Delivery, Al Buraq, Cargo Delivery Abu Dhabi, Cargo Delivery Dubai, Cargo Delivery UAE, Cargo Delivery Service, logistics, delivery services, UAE, last-mile delivery, supply chain, Alburaq Cargo, cargo services, storage facilities, leasing solutions",
   icons: {
@@ -16,16 +16,16 @@ export const metadata: Metadata = {
     apple: "/assets/alburaq-cargo-dark-logo.png",
   },
   openGraph: {
-    title: "Al Buraq Cargo Delivery Services - Professional Cargo Delivery UAE | Abu Dhabi, Dubai",
+    title: "Alburaq Cargo LLC - Professional Logistics & Delivery Solutions",
     description:
-      "Professional cargo delivery services across UAE including Abu Dhabi, Dubai, and Sharjah. Fast, reliable, and secure cargo delivery solutions.",
+      "Professional logistics and delivery solutions across UAE. Last-mile delivery, supply chain management, leasing solutions, and storage facilities.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Al Buraq Cargo Delivery Services - Professional Cargo Delivery UAE | Abu Dhabi, Dubai",
-    description: "Professional cargo delivery services across UAE including Abu Dhabi, Dubai, and Sharjah.",
+    title: "Alburaq Cargo LLC - Professional Logistics & Delivery Solutions",
+    description: "Professional logistics and delivery solutions across UAE.",
   },
 };
 
