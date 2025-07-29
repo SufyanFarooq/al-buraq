@@ -156,7 +156,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="text-white hover:text-blue-400 transition-colors duration-300 flex items-center group"
                   >
-                    <span>Al Buraq Cargo Delivery Service LLC, Abu Dhabi</span>
+                    <span className=" text-sm`">Al Buraq Cargo Delivery Service LLC, Abu Dhabi</span>
                     <svg
                       className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                       fill="none"
